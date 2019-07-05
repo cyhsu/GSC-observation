@@ -1,3 +1,11 @@
+#-
+#-
+#- Goal: Read in Binary dataset of CMORPH and output to NetCDF
+#- Language: Python
+#- Packages: numpy xarray matploblib scipy cartopy pandas os glob
+#- Password Requirement: None
+#-
+#- CopyRight: C.Y. Hsu @TAMU, 2019-07-05.
 import numpy as np
 import xarray as xr
 import matplotlib.pyplot as plt
