@@ -33,7 +33,7 @@ df = []
 for fid in fids:
 	df.append(cmorph_to_netcdf(fid))
 df = xr.concat(df,dim='time').to_dataset()
-df.attrs['host'] = 'ada.tamu.edu'
+df.attrs['host'] = 'your_host_name'
 df.attrs['code'] = 'read_cmorph.py'
 df.attrs['path'] = os.getcwd()
 	
